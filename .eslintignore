@@ -1,0 +1,7 @@
+build/
+.vscode/
+coverage
+.nyc_output
+deployment
+cdk.out/
+*.js

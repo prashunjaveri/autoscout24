@@ -1,0 +1,52 @@
+{
+    "compilerOptions": {
+      "target": "ES2019",
+      "module": "ESNext",
+      "lib": [
+        "ESNext",
+        "DOM",
+        "DOM.Iterable",
+        "WebWorker"
+      ],
+      "strict": true,
+      "allowJs": true,
+      "downlevelIteration": true,
+      "removeComments": true,
+      "isolatedModules": false,
+      "noEmit": false,
+      "noEmitOnError": false,
+      "skipLibCheck": true,
+      "declaration": true,
+      "declarationMap": true,
+      "outDir": "./build",
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "noImplicitReturns": true,
+      "noFallthroughCasesInSwitch": true,
+      "moduleResolution": "node",
+      "allowSyntheticDefaultImports": true,
+      "experimentalDecorators": true,
+      "forceConsistentCasingInFileNames": true,
+      "inlineSourceMap": true,
+      "types": [
+        "jest",
+        "node"
+      ],
+      "typeRoots": [
+        "./src/types",
+        "node_modules/@types",
+      
+      ]
+    },
+    "exclude": [
+      "node_modules",
+    ],
+    "include": [
+      "src/**/*",
+      "./src/**/*.tsx",
+      "./src/**/*.ts",
+      "test/**/*.spec.ts",
+      "declaration.d.ts"
+    ]  
+  }
+  
